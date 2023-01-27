@@ -14,7 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
+});
+
+Route::get('/discover', function () {
+    return view('pages.discover');
+});
+
+Route::get('/discover/{id}', function ($id) {
+    return view('pages.product');
+});
+
+Route::get('/my-cart', function () {
+    return view('pages.cart');
 });
 
 Route::middleware([
