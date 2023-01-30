@@ -14,6 +14,10 @@ module.exports = {
             fontFamily: {
                 sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
             },
+            boxShadow: {
+                'cta': '6px 6px 3px rgba(0, 0, 0, 0.16)',
+                'box-one': 'inset 5px 5px 9px rgba(255, 255, 255, 1), inset -5px -5px 9px rgba(166, 172, 244, 0.45)',
+            }
         },
     },
 

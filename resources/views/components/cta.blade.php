@@ -1,0 +1,3 @@
+<a href="#">
+    <button type="button" class="flex justify-center items-center bg-[#737EE2] w-[170px] h-[41px] rounded-lg text-white text-[23px] font-semibold shadow-cta">Free Trial <span class="w-[21px] ml-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 27.976 27.976"><path d="M27.976,13.988A13.988,13.988,0,1,1,13.988,0,13.988,13.988,0,0,1,27.976,13.988ZM13.369,18.615a.875.875,0,1,0,1.238,1.238l5.246-5.246a.874.874,0,0,0,0-1.238L14.607,8.124a.875.875,0,1,0-1.238,1.238l3.753,3.752H8.743a.874.874,0,0,0,0,1.749h8.38l-3.754,3.753Z" fill="#fff" fill-rule="evenodd"/></svg></span></button>
+</a>
