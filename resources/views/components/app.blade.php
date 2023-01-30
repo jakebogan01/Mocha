@@ -10,6 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="antialiased bg-[#DDE1E7] text-[#494954] leading-tight">
+<body class="antialiased bg-[#DDE1E7] text-[#494954] leading-tight overflow-x-hidden">
     {{$slot}}
 </body>
