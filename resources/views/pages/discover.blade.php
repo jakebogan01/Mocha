@@ -1,6 +1,6 @@
 <x-app>
-    <div class="flex items-center justify-center my-9">
-        <div class="w-4/5">
+    <nav class="flex items-center justify-center my-9">
+        <div class="w-[70%]">
             <a href="/" class="block w-[94px]">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 158.288 59.605">
                     <g transform="translate(-210.742 -134.223)">
@@ -14,26 +14,85 @@
                 </svg>
             </a>
         </div>
-        <div class="flex">
-            <a href="">Home</a>
-            <a href="">Discover</a>
-            <a href="">Login</a>
-            <svg id="cart" xmlns="http://www.w3.org/2000/svg" width="26.528" height="25.46" viewBox="0 0 26.528 25.46">
-                <g id="cart-2" data-name="cart" transform="translate(0 1.326)">
-                    <path id="Path_36" data-name="Path 36"
-                        d="M15.107,29.053A2.053,2.053,0,1,1,13.053,27,2.053,2.053,0,0,1,15.107,29.053Z"
-                        transform="translate(-4.183 -6.972)" fill="#fff" />
-                    <path id="Path_37" data-name="Path 37"
-                        d="M28.107,29.053A2.053,2.053,0,1,1,26.053,27,2.053,2.053,0,0,1,28.107,29.053Z"
-                        transform="translate(-6.506 -6.972)" fill="#fff" />
-                    <path id="Path_38" data-name="Path 38"
-                        d="M25.122,11.555a6.16,6.16,0,0,1-6.16-6.16H8.047l-.37-1.174a.821.821,0,0,0-.542-.534L3.768,2.652a.825.825,0,1,0-.485,1.577l2.949.9L9.993,17.017l-1.339,1.1-.107.107A2.185,2.185,0,0,0,8.482,21a2.259,2.259,0,0,0,1.856.821H24.046a.821.821,0,1,0,0-1.643H10.207a.55.55,0,0,1-.46-.821l1.979-1.643H24.4a.821.821,0,0,0,.821-.624l1.4-5.749A6.152,6.152,0,0,1,25.122,11.555Z"
-                        transform="translate(-2.7 -2.615)" fill="#fff" />
+        <div class="flex items-center">
+            <a href="/" class="pl-5 font-bold">Home</a>
+            <a href="/" class="pl-5 font-bold">Discover</a>
+            <a href="/" class="pl-5 font-bold">Login</a>
+            <svg class="pl-5" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 26.528 25.461">
+                <g id="cart" transform="translate(-2.7 -1)">
+                  <g id="cart-2" data-name="cart">
+                    <path id="Path_36" data-name="Path 36" d="M15.107,29.053A2.053,2.053,0,1,1,13.053,27,2.053,2.053,0,0,1,15.107,29.053Z" transform="translate(-1.483 -4.646)" fill="#494954"/>
+                    <path id="Path_37" data-name="Path 37" d="M28.107,29.053A2.053,2.053,0,1,1,26.053,27,2.053,2.053,0,0,1,28.107,29.053Z" transform="translate(-3.806 -4.646)" fill="#494954"/>
+                    <path id="Path_38" data-name="Path 38" d="M25.122,11.555a6.16,6.16,0,0,1-6.16-6.16H8.047l-.37-1.174a.821.821,0,0,0-.542-.534L3.768,2.652a.825.825,0,1,0-.485,1.577l2.949.9L9.993,17.017l-1.339,1.1-.107.107A2.185,2.185,0,0,0,8.482,21a2.259,2.259,0,0,0,1.856.821H24.046a.821.821,0,1,0,0-1.643H10.207a.55.55,0,0,1-.46-.821l1.979-1.643H24.4a.821.821,0,0,0,.821-.624l1.4-5.749A6.152,6.152,0,0,1,25.122,11.555Z" transform="translate(0 -0.289)" fill="#494954"/>
+                  </g>
+                  <path id="cart_count" data-name="cart count" d="M33.213,5.107A4.107,4.107,0,1,1,29.107,1a4.107,4.107,0,0,1,4.107,4.107Z" transform="translate(-3.985)" fill="#ff424e"/>
                 </g>
-                <path id="cart_count" data-name="cart count"
-                    d="M33.213,5.107A4.107,4.107,0,1,1,29.107,1a4.107,4.107,0,0,1,4.107,4.107Z"
-                    transform="translate(-6.685 -1)" fill="#ff424e" />
             </svg>
         </div>
+    </nav>
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700.724" height="700.724" viewBox="0 0 933.724 933.724">
+            <defs>
+              <filter id="dark_4">
+                <feOffset dx="-5" dy="5" input="SourceAlpha"/>
+                <feGaussianBlur stdDeviation="4.5" result="blur"/>
+                <feFlood flood-color="#5e6879" flood-opacity="0.161" result="color"/>
+                <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+                <feComposite operator="in" in="color"/>
+                <feComposite operator="in" in2="SourceGraphic"/>
+              </filter>
+              <filter id="dark_3">
+                <feOffset dx="-5" dy="5" input="SourceAlpha"/>
+                <feGaussianBlur stdDeviation="4.5" result="blur-2"/>
+                <feFlood flood-color="#5e6879" flood-opacity="0.502" result="color-2"/>
+                <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+                <feComposite operator="in" in="color-2"/>
+                <feComposite operator="in" in2="SourceGraphic"/>
+              </filter>
+              <filter id="dark_2">
+                <feOffset dx="-5" dy="5" input="SourceAlpha"/>
+                <feGaussianBlur stdDeviation="4.5" result="blur-3"/>
+                <feFlood flood-color="#5e6879" flood-opacity="0.42" result="color-3"/>
+                <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+                <feComposite operator="in" in="color-3"/>
+                <feComposite operator="in" in2="SourceGraphic"/>
+              </filter>
+              <filter id="dark_1">
+                <feOffset dx="-5" dy="5" input="SourceAlpha"/>
+                <feGaussianBlur stdDeviation="4.5" result="blur-4"/>
+                <feFlood flood-color="#5e6879" flood-opacity="0.502" result="color-4"/>
+                <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+                <feComposite operator="in" in="color-4"/>
+                <feComposite operator="in" in2="SourceGraphic"/>
+              </filter>
+            </defs>
+            <g id="background_wavy_circles" data-name="background wavy circles" transform="translate(0 513.8)">
+              <g data-type="innerShadowGroup">
+                <path id="dark_4-2" data-name="dark 4" d="M0-513.8c128.119,7.814,256.056,15.447,357.279,71.056s175.732,159.195,255.693,249.7S778.346-24.949,832.683,75c54.519,99.951,77.78,222.436,101.041,344.922H0Z" fill="#464850"/>
+                <g transform="matrix(1, 0, 0, 1, 0, -513.8)" filter="url(#dark_4)">
+                  <path id="dark_4-3" data-name="dark 4" d="M0-513.8c128.119,7.814,256.056,15.447,357.279,71.056s175.732,159.195,255.693,249.7S778.346-24.949,832.683,75c54.519,99.951,77.78,222.436,101.041,344.922H0Z" transform="translate(0 513.8)" fill="#fff"/>
+                </g>
+              </g>
+              <g data-type="innerShadowGroup">
+                <path id="dark_3-2" data-name="dark 3" d="M0-385.3c95.953,5.634,192.088,11.449,268.05,53.247,75.781,41.616,131.754,119.4,191.724,187.181C519.745-76.906,583.714-18.752,624.6,56.12c40.707,75.054,58.153,167.009,75.6,258.782H0Z" transform="translate(0 105.022)" fill="#9c9ec4" opacity="0.62"/>
+                <g transform="matrix(1, 0, 0, 1, 0, -513.8)" filter="url(#dark_3)">
+                  <path id="dark_3-3" data-name="dark 3" d="M0-385.3c95.953,5.634,192.088,11.449,268.05,53.247,75.781,41.616,131.754,119.4,191.724,187.181C519.745-76.906,583.714-18.752,624.6,56.12c40.707,75.054,58.153,167.009,75.6,258.782H0Z" transform="translate(0 618.82)" fill="#fff" opacity="0.62"/>
+                </g>
+              </g>
+              <g data-type="innerShadowGroup">
+                <path id="dark_2-2" data-name="dark 2" d="M0-256.9c63.969,3.816,128.119,7.814,178.64,35.619,50.7,27.8,87.775,79.6,127.756,124.848S389.264-12.474,416.341,37.5c27.259,49.976,38.89,111.218,50.521,172.461H0Z" transform="translate(0 209.962)" fill="#8488ce" opacity="0.52"/>
+                <g transform="matrix(1, 0, 0, 1, 0, -513.8)" filter="url(#dark_2)">
+                  <path id="dark_2-3" data-name="dark 2" d="M0-256.9c63.969,3.816,128.119,7.814,178.64,35.619,50.7,27.8,87.775,79.6,127.756,124.848S389.264-12.474,416.341,37.5c27.259,49.976,38.89,111.218,50.521,172.461H0Z" transform="translate(0 723.76)" fill="#fff" opacity="0.52"/>
+                </g>
+              </g>
+              <g data-type="innerShadowGroup">
+                <path id="dark_1-2" data-name="dark 1" d="M0-128.4c31.984,1.817,63.969,3.816,89.411,17.628,25.26,13.993,43.8,39.8,63.787,62.515,19.99,22.534,41.434,41.979,55.064,66.876C221.71,43.7,227.525,74.41,233.34,104.94H0Z" transform="translate(0 314.984)" fill="#757edb" opacity="0.59"/>
+                <g transform="matrix(1, 0, 0, 1, 0, -513.8)" filter="url(#dark_1)">
+                  <path id="dark_1-3" data-name="dark 1" d="M0-128.4c31.984,1.817,63.969,3.816,89.411,17.628,25.26,13.993,43.8,39.8,63.787,62.515,19.99,22.534,41.434,41.979,55.064,66.876C221.71,43.7,227.525,74.41,233.34,104.94H0Z" transform="translate(0 828.78)" fill="#fff" opacity="0.59"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+          
     </div>
 </x-app>
