@@ -163,7 +163,7 @@
               <path id="Path_32-5" data-name="Path 32" d="M5.534,24.016a.813.813,0,0,1-1.143-.907l1.271-7.246-5.4-5.141A.852.852,0,0,1,.7,9.267L8.2,8.2l3.346-6.629a.787.787,0,0,1,1.42,0L16.314,8.2l7.5,1.066a.852.852,0,0,1,.434,1.455l-5.4,5.141,1.271,7.246a.813.813,0,0,1-1.143.907L12.256,20.56,5.533,24.016Z" transform="translate(1073.997 362.648)" fill="none" stroke="#7d91f6" stroke-width="1"/>
             </g>
           </svg>
-          <button type="button" class="my-8 flex justify-center items-center bg-[#737EE2] w-[240px] h-[55px] rounded-lg text-white text-[23px] font-semibold shadow-cta">Add To Cart <span class="w-[21px] ml-3"><svg id="cart" xmlns="http://www.w3.org/2000/svg" width="22.909" height="22.141" viewBox="0 0 22.909 22.141">
+          <button type="button" class="mt-8 flex justify-center items-center bg-[#737EE2] w-[240px] h-[55px] rounded-lg text-white text-[23px] font-semibold shadow-cta">Add To Cart <span class="w-[21px] ml-3"><svg id="cart" xmlns="http://www.w3.org/2000/svg" width="22.909" height="22.141" viewBox="0 0 22.909 22.141">
             <path id="Path_36" data-name="Path 36" d="M14.767,28.884A1.884,1.884,0,1,1,12.884,27,1.884,1.884,0,0,1,14.767,28.884Z" transform="translate(-4.746 -8.626)" fill="#fff"/>
             <path id="Path_37" data-name="Path 37" d="M27.767,28.884A1.884,1.884,0,1,1,25.884,27,1.884,1.884,0,0,1,27.767,28.884Z" transform="translate(-7.951 -8.626)" fill="#fff"/>
             <path id="Path_38" data-name="Path 38" d="M17.619,5.166H7.605L7.266,4.088a.753.753,0,0,0-.5-.49L3.68,2.649A.757.757,0,0,0,3.235,4.1l2.705.829,3.451,10.9-1.228,1.01-.1.1A2,2,0,0,0,8,19.482a2.072,2.072,0,0,0,1.7.753H22.283a.753.753,0,1,0,0-1.507H9.587a.5.5,0,0,1-.422-.753l1.816-1.507H22.607a.753.753,0,0,0,.753-.573l1.288-5.274c.932-3.649,1.315-4.6.558-5.018S22.186,5.075,17.619,5.166Z" transform="translate(-2.7 -2.615)" fill="#fff"/>
@@ -173,11 +173,42 @@
         {{--Ending of Hogwarts Text Section --}}
         
           {{--Beginning of Description Section --}}
-          <div>
-            <p>description</p>
+          <div class="border-t-2 border-solid border-[#7381DF] flex items-center justify-between w-11/12 py-7 mt-12">
+            <div>
+              <p class="font-medium">Description</p>
+            </div>
+            <div>
+              <svg class="text-[#7381DF] w-8 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>              
+            </div>
           </div>
+          {{--Ending of Description Section --}}
+          {{--Beginning of Specifics Section --}}
+          <div class="border-t-2 border-solid border-[#7381DF] flex items-center justify-between w-11/12 py-7">
+            <div>
+              <p class="font-medium">Specifics</p>
+            </div>
+            <div>
+              <svg class="text-[#7381DF] w-8 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>              
+            </div>
+          </div>
+           {{--Ending of Specifics Section --}}
+           {{--Beginning of Refunds Section --}}
+          <div class="border-t-2 border-solid border-[#7381DF] flex items-center justify-between w-11/12 py-7">
+            <div>
+              <p class="font-medium">Refunds</p>
+            </div>
+            <div>
+              <svg class="text-[#7381DF] w-8 h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>              
+            </div>
+          </div>
+           {{--Ending of Refunds Section --}}
         </div>
-         {{--Ending of Description Section --}}
       </div>
     </div>
     <footer class="bg-[#707EE9] h-28 w-full">
